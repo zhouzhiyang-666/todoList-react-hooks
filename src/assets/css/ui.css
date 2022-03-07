@@ -1,0 +1,25 @@
+.btn{
+  display: inline-block;
+  height: 25px;
+  color: #FFF;
+  font-size: 10px;
+  padding: 0 10px;
+  margin-left: 5px;
+}
+.btn-primary {
+  color:#FFF;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+
+.btn-warnning {
+  color:#FFF;
+  background-color: #f0b341;
+  border-color: #e4990d;
+}
+
+.btn-error {
+  color:#FFF;
+  background-color: #e0591a;
+  border-color: #f35d06;
+}

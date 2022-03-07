@@ -1,0 +1,40 @@
+.mask{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  opacity: 0;
+  z-index: 1;
+}
+.modal{
+  position: fixed;
+  align-items: center;
+  right: 0;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  margin:0 auto;
+  width: 80%;
+  background-color: rgb(255, 255, 255);
+  z-index: 2;
+}
+.inner{
+  display: flex;
+  flex-direction: column;
+}
+.m-header{
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  background-color: #46b8da;
+}
+.content-wrapper{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
+}
